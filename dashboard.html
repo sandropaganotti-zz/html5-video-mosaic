@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang='it'>
+<head>
+    <meta charset="utf-8">
+    <title>Dashboard Video</title>
+    <link type="text/css" rel="stylesheet" href="css/dashboard.css" /> 
+</head>
+<body>
+        <div id="dropzone"></div>
+        <form>
+            <fieldset>
+                <legend>Quadrettatura</legend>
+                <label> Asse delle X: </label>
+                <input name="tassellazione-x" data-comando="tassellazione-x" type="range" min="1" max="10" step="1" value="3">
+                <label> Asse delle Y: </label>
+                <input name="tassellazione-y" data-comando="tassellazione-y" type="range" min="1" max="10" step="1" value="3">
+            </fieldset>
+        </form>
+        <script src="js/dashboard.js" defer></script>
+</body>
+</html>

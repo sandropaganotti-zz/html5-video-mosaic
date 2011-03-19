@@ -1,0 +1,10 @@
+@import "http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css";
+
+canvas{
+  width: 100%;
+  height: 100%;
+}
+
+#videos{
+  display: none;
+}
